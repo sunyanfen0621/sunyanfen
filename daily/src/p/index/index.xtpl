@@ -1,0 +1,21 @@
+{{! 我是注释 }}
+
+<ul class="itemlist list-item">
+{{#each(list)}}
+  <li class="grid">
+    <div class="col-5 pic-wrap">
+      <a class="item-pic">
+        <img src="{{item_pic}}_100x100xz.jpg" alt="{{item_title}}"/>
+      </a>
+    </div>
+    <div class="col-7 info">
+      <a class="item-title" href="{{item_origin_url}}"><h3>{{item_title}}</h3></a>
+      <div class="main">
+        <span class="price price-primary">现价：<span>&#65509;</span>{{item_current_price}}</span>
+      </div>
+    </div>
+  </li>
+{{/each}}
+</ul>
+
+{{! 我是注释 }}

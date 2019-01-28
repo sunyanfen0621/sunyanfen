@@ -1,0 +1,22 @@
+{
+  "name": "transmark-js",
+  "group": "alifanyi",
+  "version": "@BRANCH@",
+  "type": "cake",
+  "builder": "@ali/builder-cake",
+  "author": "'mingholy.lmh'",
+  "options": {
+    "builderReflect": true,
+    "babel": true,
+    "devtool": "#inline-source-map"
+  },
+  "info": {
+    "extraLib": "null",
+    "platform": ["pc"],
+    "project": "app",
+    "workflow": "normal"
+  },
+  "build_ignore": [
+    "./build"
+  ]
+}

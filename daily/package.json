@@ -1,0 +1,36 @@
+{
+  "name": "@ali/transmark-js",
+  "version": "0.0.1",
+  "description": "transmark-js",
+  "main": "src/p/index/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["kissy-pc-normal-app"],
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.alibaba-inc.com:alifanyi/transmark-js.git"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "author": {
+    "name": "'mingholy.lmh'"
+  },
+  "maintainers": [
+    {
+      "name": "kpm_admin",
+      "email": "kpm_admin@taobao.com"
+    }
+  ],
+  "upx": {
+    "zebra": true,
+    "screenshot": "",
+    "width": [],
+    "type": "component",
+    "terminalType": ["pc"]
+  },
+  "dependencies": {
+    
+  }
+}
